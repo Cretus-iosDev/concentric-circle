@@ -1,4 +1,4 @@
-# concentric-circle
+# concentric-circle-animation-using-swiftUI
 
 SAMPLE VIDEO OF THE OUTPUT ;-
 
