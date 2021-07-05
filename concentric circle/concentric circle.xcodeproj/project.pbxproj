@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39F8C308269236C900BAECAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F8C307269236C900BAECAD /* AppDelegate.swift */; };
+		39F8C30A269236C900BAECAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F8C309269236C900BAECAD /* SceneDelegate.swift */; };
+		39F8C30C269236C900BAECAD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F8C30B269236C900BAECAD /* ContentView.swift */; };
+		39F8C30E269236CE00BAECAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39F8C30D269236CE00BAECAD /* Assets.xcassets */; };
+		39F8C311269236CE00BAECAD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39F8C310269236CE00BAECAD /* Preview Assets.xcassets */; };
+		39F8C314269236CE00BAECAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39F8C312269236CE00BAECAD /* LaunchScreen.storyboard */; };
+		39F8C31F269236CE00BAECAD /* concentric_circleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F8C31E269236CE00BAECAD /* concentric_circleTests.swift */; };
+		39F8C32A269236CE00BAECAD /* concentric_circleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F8C329269236CE00BAECAD /* concentric_circleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39F8C31B269236CE00BAECAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39F8C2FC269236C900BAECAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39F8C303269236C900BAECAD;
+			remoteInfo = "concentric circle";
+		};
+		39F8C326269236CE00BAECAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39F8C2FC269236C900BAECAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39F8C303269236C900BAECAD;
+			remoteInfo = "concentric circle";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		39F8C304269236C900BAECAD /* concentric circle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "concentric circle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39F8C307269236C900BAECAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		39F8C309269236C900BAECAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		39F8C30B269236C900BAECAD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		39F8C30D269236CE00BAECAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39F8C310269236CE00BAECAD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		39F8C313269236CE00BAECAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		39F8C315269236CE00BAECAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39F8C31A269236CE00BAECAD /* concentric circleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "concentric circleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39F8C31E269236CE00BAECAD /* concentric_circleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = concentric_circleTests.swift; sourceTree = "<group>"; };
+		39F8C320269236CE00BAECAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39F8C325269236CE00BAECAD /* concentric circleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "concentric circleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39F8C329269236CE00BAECAD /* concentric_circleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = concentric_circleUITests.swift; sourceTree = "<group>"; };
+		39F8C32B269236CE00BAECAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39F8C301269236C900BAECAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39F8C317269236CE00BAECAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39F8C322269236CE00BAECAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39F8C2FB269236C900BAECAD = {
+			isa = PBXGroup;
+			children = (
+				39F8C306269236C900BAECAD /* concentric circle */,
+				39F8C31D269236CE00BAECAD /* concentric circleTests */,
+				39F8C328269236CE00BAECAD /* concentric circleUITests */,
+				39F8C305269236C900BAECAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39F8C305269236C900BAECAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39F8C304269236C900BAECAD /* concentric circle.app */,
+				39F8C31A269236CE00BAECAD /* concentric circleTests.xctest */,
+				39F8C325269236CE00BAECAD /* concentric circleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39F8C306269236C900BAECAD /* concentric circle */ = {
+			isa = PBXGroup;
+			children = (
+				39F8C307269236C900BAECAD /* AppDelegate.swift */,
+				39F8C309269236C900BAECAD /* SceneDelegate.swift */,
+				39F8C30B269236C900BAECAD /* ContentView.swift */,
+				39F8C30D269236CE00BAECAD /* Assets.xcassets */,
+				39F8C312269236CE00BAECAD /* LaunchScreen.storyboard */,
+				39F8C315269236CE00BAECAD /* Info.plist */,
+				39F8C30F269236CE00BAECAD /* Preview Content */,
+			);
+			path = "concentric circle";
+			sourceTree = "<group>";
+		};
+		39F8C30F269236CE00BAECAD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				39F8C310269236CE00BAECAD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		39F8C31D269236CE00BAECAD /* concentric circleTests */ = {
+			isa = PBXGroup;
+			children = (
+				39F8C31E269236CE00BAECAD /* concentric_circleTests.swift */,
+				39F8C320269236CE00BAECAD /* Info.plist */,
+			);
+			path = "concentric circleTests";
+			sourceTree = "<group>";
+		};
+		39F8C328269236CE00BAECAD /* concentric circleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				39F8C329269236CE00BAECAD /* concentric_circleUITests.swift */,
+				39F8C32B269236CE00BAECAD /* Info.plist */,
+			);
+			path = "concentric circleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39F8C303269236C900BAECAD /* concentric circle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39F8C32E269236CE00BAECAD /* Build configuration list for PBXNativeTarget "concentric circle" */;
+			buildPhases = (
+				39F8C300269236C900BAECAD /* Sources */,
+				39F8C301269236C900BAECAD /* Frameworks */,
+				39F8C302269236C900BAECAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "concentric circle";
+			productName = "concentric circle";
+			productReference = 39F8C304269236C900BAECAD /* concentric circle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39F8C319269236CE00BAECAD /* concentric circleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39F8C331269236CE00BAECAD /* Build configuration list for PBXNativeTarget "concentric circleTests" */;
+			buildPhases = (
+				39F8C316269236CE00BAECAD /* Sources */,
+				39F8C317269236CE00BAECAD /* Frameworks */,
+				39F8C318269236CE00BAECAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39F8C31C269236CE00BAECAD /* PBXTargetDependency */,
+			);
+			name = "concentric circleTests";
+			productName = "concentric circleTests";
+			productReference = 39F8C31A269236CE00BAECAD /* concentric circleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		39F8C324269236CE00BAECAD /* concentric circleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39F8C334269236CE00BAECAD /* Build configuration list for PBXNativeTarget "concentric circleUITests" */;
+			buildPhases = (
+				39F8C321269236CE00BAECAD /* Sources */,
+				39F8C322269236CE00BAECAD /* Frameworks */,
+				39F8C323269236CE00BAECAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39F8C327269236CE00BAECAD /* PBXTargetDependency */,
+			);
+			name = "concentric circleUITests";
+			productName = "concentric circleUITests";
+			productReference = 39F8C325269236CE00BAECAD /* concentric circleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39F8C2FC269236C900BAECAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					39F8C303269236C900BAECAD = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					39F8C319269236CE00BAECAD = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 39F8C303269236C900BAECAD;
+					};
+					39F8C324269236CE00BAECAD = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 39F8C303269236C900BAECAD;
+					};
+				};
+			};
+			buildConfigurationList = 39F8C2FF269236C900BAECAD /* Build configuration list for PBXProject "concentric circle" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39F8C2FB269236C900BAECAD;
+			productRefGroup = 39F8C305269236C900BAECAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39F8C303269236C900BAECAD /* concentric circle */,
+				39F8C319269236CE00BAECAD /* concentric circleTests */,
+				39F8C324269236CE00BAECAD /* concentric circleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39F8C302269236C900BAECAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39F8C314269236CE00BAECAD /* LaunchScreen.storyboard in Resources */,
+				39F8C311269236CE00BAECAD /* Preview Assets.xcassets in Resources */,
+				39F8C30E269236CE00BAECAD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39F8C318269236CE00BAECAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39F8C323269236CE00BAECAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39F8C300269236C900BAECAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39F8C308269236C900BAECAD /* AppDelegate.swift in Sources */,
+				39F8C30A269236C900BAECAD /* SceneDelegate.swift in Sources */,
+				39F8C30C269236C900BAECAD /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39F8C316269236CE00BAECAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39F8C31F269236CE00BAECAD /* concentric_circleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39F8C321269236CE00BAECAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39F8C32A269236CE00BAECAD /* concentric_circleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39F8C31C269236CE00BAECAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39F8C303269236C900BAECAD /* concentric circle */;
+			targetProxy = 39F8C31B269236CE00BAECAD /* PBXContainerItemProxy */;
+		};
+		39F8C327269236CE00BAECAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39F8C303269236C900BAECAD /* concentric circle */;
+			targetProxy = 39F8C326269236CE00BAECAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		39F8C312269236CE00BAECAD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39F8C313269236CE00BAECAD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39F8C32C269236CE00BAECAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		39F8C32D269236CE00BAECAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39F8C32F269236CE00BAECAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"concentric circle/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "concentric circle/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rutik1413.concentric-circle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39F8C330269236CE00BAECAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"concentric circle/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "concentric circle/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rutik1413.concentric-circle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		39F8C332269236CE00BAECAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "concentric circleTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rutik1413.concentric-circleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/concentric circle.app/concentric circle";
+			};
+			name = Debug;
+		};
+		39F8C333269236CE00BAECAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "concentric circleTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rutik1413.concentric-circleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/concentric circle.app/concentric circle";
+			};
+			name = Release;
+		};
+		39F8C335269236CE00BAECAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "concentric circleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rutik1413.concentric-circleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "concentric circle";
+			};
+			name = Debug;
+		};
+		39F8C336269236CE00BAECAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "concentric circleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rutik1413.concentric-circleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "concentric circle";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39F8C2FF269236C900BAECAD /* Build configuration list for PBXProject "concentric circle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39F8C32C269236CE00BAECAD /* Debug */,
+				39F8C32D269236CE00BAECAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39F8C32E269236CE00BAECAD /* Build configuration list for PBXNativeTarget "concentric circle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39F8C32F269236CE00BAECAD /* Debug */,
+				39F8C330269236CE00BAECAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39F8C331269236CE00BAECAD /* Build configuration list for PBXNativeTarget "concentric circleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39F8C332269236CE00BAECAD /* Debug */,
+				39F8C333269236CE00BAECAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39F8C334269236CE00BAECAD /* Build configuration list for PBXNativeTarget "concentric circleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39F8C335269236CE00BAECAD /* Debug */,
+				39F8C336269236CE00BAECAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39F8C2FC269236C900BAECAD /* Project object */;
+}
